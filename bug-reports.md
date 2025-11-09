@@ -69,7 +69,7 @@
 - **Impact**:  
   UI inconsistency; potential for item overlap/corruption.  
 - **Evidence**:  
-   [BUG-4 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) |  [BUG-4 screenshot](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
+   [BUG-4 video](https://drive.google.com/file/d/131YdyiIp4nF7AXov3hZLNquE_HLFZ_Yf/view?usp=sharing) |  [BUG-4 screenshot](https://drive.google.com/file/d/1pBgaf8pamJgQdxQsCYsdHKuVfFff3nwB/view?usp=drive_link)
 
 ---
 
@@ -89,8 +89,7 @@
 - **Impact**:  
   **Save corruption**, economy break, potential crash on load.  
 - **Evidence**:  
-   [BUG-5.1 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) | [BUG-5.2 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) |  [BUG-5 screenshot](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
-
+   [BUG-5.1 video](https://drive.google.com/file/d/1HE03crRdf0YycAkd9i7gWPWS9XU-Hk0v/view?usp=sharing) | [BUG-5.2 video](https://drive.google.com/file/d/1-tLLZs55Xa707eMRRC5iafDKp_9iYiQt/view?usp=drive_link) |
 ---
 
 ### [BUG-6] Inventory cell collision failure when items overlap vertically  
@@ -107,7 +106,7 @@
 - **Impact**:  
   Item loss, UI state desync, potential for exploit.  
 - **Evidence**:  
-   [BUG-6 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
+   [BUG-6 video](https://drive.google.com/file/d/1zw-S-VicaN520oWMbRj55s3XjvU6hORe/view?usp=sharing) | [BUG-6 screenshot](https://drive.google.com/file/d/1R1HUr6rLfDgDNUE9PVvTWrnP9O9ObIEk/view?usp=drive_link)
 
 ---
 
@@ -124,7 +123,7 @@
 - **Impact**:  
   Minor immersion break; no functional impact.  
 - **Evidence**:  
-   [BUG-7 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
+   [BUG-7 video](https://drive.google.com/file/d/1R1HUr6rLfDgDNUE9PVvTWrnP9O9ObIEk/view?usp=drive_link)
 
 ---
 
