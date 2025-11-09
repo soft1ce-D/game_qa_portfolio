@@ -1,4 +1,5 @@
 #  Verified Bug Reports  
+## game_1 DELUDED (adulr 18+ rpg-survival)
 **Tested on internal build (pre-release), Windows 10/11**  
  All videos & screenshots: [Google Drive Folder](https://drive.google.com/drive/folders/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn?usp=sharing)  
 *(Filenames match bug IDs: `BUG-5 video.mp4`, `BUG-5 screenshot.png`, etc.)*
