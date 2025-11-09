@@ -1,9 +1,9 @@
-# 🐞 Verified Bug Reports  
+#  Verified Bug Reports  
 **Tested on internal build (pre-release), Windows 10/11**  
-📹 All videos & screenshots: [Google Drive Folder](https://drive.google.com/drive/folders/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn?usp=sharing)  
+ All videos & screenshots: [Google Drive Folder](https://drive.google.com/drive/folders/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn?usp=sharing)  
 *(Filenames match bug IDs: `BUG-5 video.mp4`, `BUG-5 screenshot.png`, etc.)*
 
-> 💡 Focus: Only **reproducible, gameplay-affecting bugs** are included. Animation/UI polish issues (e.g., clothing glitches, NPC idle poses) were intentionally excluded.
+>  Focus: Only **reproducible, gameplay-affecting bugs** are included. Animation/UI polish issues (e.g., clothing glitches, NPC idle poses) were intentionally excluded.
 
 ---
 
@@ -69,7 +69,7 @@
 - **Impact**:  
   UI inconsistency; potential for item overlap/corruption.  
 - **Evidence**:  
-  ▶️ [BUG-4 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) | 📸 [BUG-4 screenshot](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
+   [BUG-4 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) |  [BUG-4 screenshot](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
 
 ---
 
@@ -89,7 +89,7 @@
 - **Impact**:  
   **Save corruption**, economy break, potential crash on load.  
 - **Evidence**:  
-  ▶️ [BUG-5.1 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) | ▶️ [BUG-5.2 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) | 📸 [BUG-5 screenshot](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
+   [BUG-5.1 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) | [BUG-5.2 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing) |  [BUG-5 screenshot](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
 
 ---
 
@@ -107,7 +107,7 @@
 - **Impact**:  
   Item loss, UI state desync, potential for exploit.  
 - **Evidence**:  
-  ▶️ [BUG-6 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
+   [BUG-6 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
 
 ---
 
@@ -124,7 +124,7 @@
 - **Impact**:  
   Minor immersion break; no functional impact.  
 - **Evidence**:  
-  ▶️ [BUG-7 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
+   [BUG-7 video](https://drive.google.com/file/d/1XOdYZ8Ud7ecojAKNLQFxVDB6H2femekn/view?usp=sharing)
 
 ---
 
@@ -143,7 +143,7 @@
 
 ---
 
-## 📊 Summary  
+##  Summary  
 | Priority    | Count | Bugs |
 |-------------|-------|------|
 | **Critical** | 4 | BUG-1, BUG-5, BUG-6, BUG-8 |
@@ -153,5 +153,5 @@
 
 ---
 
-## 🧠 QA Insight  
+##  QA Insight  
 Inventory bugs (BUG-4/5/6) suggest a deeper issue in **multi-cell item placement logic** — likely a race condition between visual snap and cell occupancy update. A single fix here may resolve 3+ critical bugs.
