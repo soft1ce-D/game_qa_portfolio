@@ -16,7 +16,7 @@
 - **Expected Result**:  
   Journal UI opens (no quest should be granted).  
 - **Actual Result**:  
-  Quest *"Silent Observer"* is granted on **every** `J` press — notification appears repeatedly, quest counter increments.  
+  Quest *"Silent Observer"* is granted on **every** `J` press - notification appears repeatedly, quest counter increments.  
 - **Impact**:  
   Quest progression broken; potential save corruption due to duplicate quest instances.  )
 
@@ -32,7 +32,7 @@
 - **Expected Result**:  
   Interaction ends; player resumes free movement.  
 - **Actual Result**:  
-  Box inventory opens — player can take items, modify storage. Timer does **not** advance.  
+  Box inventory opens - player can take items, modify storage. Timer does **not** advance.  
   On re-interaction, boxes are treated as *unsearched*.  
 - **Impact**:  
   Progression logic broken; time-gating bypass possible.  
@@ -50,7 +50,7 @@
 - **Actual Result**:  
   Vibration continues; buff persists. Item also works *when re-equipped at 0 durability*.  
 - **Impact**:  
-  Balance broken — infinite arousal gain without resource cost.  
+  Balance broken - infinite arousal gain without resource cost.  
 
 
 ---
@@ -66,7 +66,7 @@
 - **Actual Result**:  
   - Item snaps to vertical, occupying extra row  
   - Toolbar shifts down; empty row appears  
-  - Adjacent cell (should be occupied) is treated as *empty* — other items can be placed there  
+  - Adjacent cell (should be occupied) is treated as *empty* - other items can be placed there  
 - **Impact**:  
   UI inconsistency; potential for item overlap/corruption.  
 - **Evidence**:  
@@ -138,7 +138,7 @@
 - **Actual Result**:  
   Player walks through fence and chair freely.  
 - **Impact**:  
-  **Progression break** — player can bypass intended interaction/scene trigger.  
+  **Progression break** - player can bypass intended interaction/scene trigger.  
 
 
 ---
@@ -154,4 +154,4 @@
 ---
 
 ##  QA Insight  
-Inventory bugs (BUG-4/5/6) suggest a deeper issue in **multi-cell item placement logic** — likely a race condition between visual snap and cell occupancy update. A single fix here may resolve 3+ critical bugs.
+Inventory bugs (BUG-4/5/6) suggest a deeper issue in **multi-cell item placement logic** - likely a race condition between visual snap and cell occupancy update. A single fix here may resolve 3+ critical bugs.
